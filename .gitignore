@@ -1,0 +1,30 @@
+# Personal Context Files
+# These files contain your personal information and should not be shared
+
+context/YOUR-VOICE.md
+context/YOUR-BIO.md
+context/YOUR-VALUES.md
+context/YOUR-EXPERIENCE.md
+context/YOUR-ICP.md
+
+# Keep the template versions in git, but ignore filled-in versions
+context/*-filled.md
+context/*-complete.md
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+
+# Notes
+notes/
+scratch/
